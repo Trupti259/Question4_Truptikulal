@@ -1,0 +1,14 @@
+<?php
+  echo "Enter the number";
+  $n=$_GET['number'];
+  $divisor;
+  echo "Divisors of a number: are ",$n);
+  for($divisor = 1;$divisor <= $n; $divisor++)
+{
+ if (($n % $divisor) == 0)
+  {
+    print($divisor);
+  }    
+
+ }  
+ ?>
